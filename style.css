@@ -4,3 +4,5 @@
     css2?family=Chakra+Petch:wght@400;700&amp;display=swap’)
     body { background-color: var(--cor-de-fundo);    color: var(--branco); font-family: ‘Chakra
     Petch’, sans-serif; }
+    .botoes { display: block;}
+    @media screen and (min-width: 768px) { .botoes { display: flex;}}
